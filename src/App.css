@@ -25,3 +25,9 @@
 .countriesName {
   font-size: 15px;
 }
+.inputBox {
+  border: 5px solid rgba(20, 20, 20, 0.719);
+  display: flex;
+  width: 200px;
+  margin: auto;
+}

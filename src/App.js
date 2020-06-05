@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
-import CountriesData from './CountriesData';
-import ListOfCountries from "./ListOfCountries"
+import SearchBox from "./SearchBox"
 
 
 function App() {
   return (
     <div >
-      <ListOfCountries CountriesInfo={CountriesData} />
+      <SearchBox />
     </div>
   );
 }
